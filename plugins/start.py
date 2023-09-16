@@ -44,7 +44,7 @@ async def _human_time_duration(seconds):
     return ", ".join(parts)
 
 
-@Bot.on_message(filters.command("start") & filters.private & subsall & subsch & subsgc & subsch2 & subsgc2)
+@Bot.on_message(filters.command("start") & filters.private & subsall & subsch & subsgc & subsch2 & subsgc2 & subsch3 & subsgc3)
 async def start_command(client: Bot, message: Message):
     id = message.from_user.id
     if not await present_user(id):
