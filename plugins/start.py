@@ -18,7 +18,7 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from helper_func import decode, get_messages, subsall, subsch, subsgc, subsch2, subsgc2
+from helper_func import decode, get_messages, subsall, subsch, subsgc, subsch2, subsgc2, subsch3, subsgc3
 
 from .button import fsub_button, start_button
 
